@@ -1,0 +1,81 @@
+Objective-C Foundation Tool Bundle
+
+====================================================================
+
+Contents
+--------
+
+- Introduction
+- Software License
+- Installation Instructions
+
+
+--------------------------------------------------------------------
+	Introduction
+--------------------------------------------------------------------
+
+The Objective-C Foundation Tool Bundle adds a few features to the 
+TextMate editor for Mac OS X that I needed at one point during my 
+attempts to learn the language. I became annoyed with constantly
+adding plaintext documents, then typing in the required template.
+Using the included templates required just as much editing as 
+starting from scratch. 
+
+This bundle has been tested on Mac OS X 10.5.8 and 10.6.1, which 
+shouldn't matter anyways. The version of TextMate I use as of this
+writing is TextMate v1.5.9 (1510).
+
+I currently have this bundle distributed via GitHub at:
+
+		http://github.com/uxp/ObjCTool-for-TextMate
+
+
+
+--------------------------------------------------------------------
+	Software License
+--------------------------------------------------------------------
+
+This is distrubuted under the BSD License:
+
+Copyright (c) 2009, Howard P. Logsdon
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+- Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+- Neither the name of the <ORGANIZATION> nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+
+--------------------------------------------------------------------
+	Installation Instructions
+--------------------------------------------------------------------
+
+1. Obtain the bundle from the aforementioned GitHub Repository:
+	
+	git clone git://github.com/uxp/ObjCTool-for-TextMate.git
+	
+2. In Finder, double click "Objective-C Foundation Tool.tmbundle"
+	to install the bundle in TextMate.
+	
+
