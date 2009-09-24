@@ -1,0 +1,27 @@
+# Objective-c Foundation Tool Makefile
+.SUFFIXES: .o .m
+.m.o:
+	$(CC) -c $(CFLAGS) $<
+
+# Macros
+PROG = ${TM_NEW_FILE_BASENAME}
+OBJS = main.o
+CC = gcc
+CFLAGS = -g
+LIBS = -lobjc -framework Foundation
+
+# Explicit
+$(PROG) : $(OBJS)
+	$(CC) $(OBJS) -o $(PROG) $(LIBS)
+
+# Implicit
+main.o : main.m
+
+clean:
+	\rm *.o ./$(PROG)
+	
+run:
+	./program
+
+tar:
+	tar cjfv $(PROG).tar.bz2 *.m *.h Makefile

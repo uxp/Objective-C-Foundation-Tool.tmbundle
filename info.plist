@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Objective-C Foundation Tool</string>
+	<key>ordering</key>
+	<array>
+		<string>220D649B-48F0-42E5-9746-BCB8501B0466</string>
+		<string>35357F6B-02D1-428A-8639-7E2DE33E8980</string>
+	</array>
+	<key>uuid</key>
+	<string>9491D18F-873F-4C7E-96AF-098B22D999BE</string>
+</dict>
+</plist>

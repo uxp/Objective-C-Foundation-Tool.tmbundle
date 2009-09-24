@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>export TM_YEAR=`date +%Y`
+export TM_DATE=`date +%Y-%m-%d`
+
+perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt;main_in.m &gt;"$TM_NEW_FILE"
+</string>
+	<key>extension</key>
+	<string>m</string>
+	<key>name</key>
+	<string>Standard main()</string>
+	<key>uuid</key>
+	<string>220D649B-48F0-42E5-9746-BCB8501B0466</string>
+</dict>
+</plist>
