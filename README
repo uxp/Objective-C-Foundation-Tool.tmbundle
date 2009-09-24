@@ -27,7 +27,7 @@ writing is TextMate v1.5.9 (1510).
 
 I currently have this bundle distributed via GitHub at:
 
-		http://github.com/uxp/ObjCTool-for-TextMate
+		http://github.com/uxp/Objective-C-Foundation-Tool.tmbundle
 
 
 
@@ -73,7 +73,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 1. Obtain the bundle from the aforementioned GitHub Repository:
 	
-	git clone git://github.com/uxp/ObjCTool-for-TextMate.git
+	git clone git://github.com/uxp/Objective-C-Foundation-Tool.tmbundle
 	
 2. In Finder, double click "Objective-C Foundation Tool.tmbundle"
 	to install the bundle in TextMate.
